@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #eee;
+}
+
+#root {height: 100%;}
+
+.App {
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+  flex-flow: column;
+}
+
+.map {
+  border-collapse: collapse;
+}
+
+.map td {
+  height: 1em;
+  width: 1em;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.map td.wall {
+  background-color: dimgray;
+  color: gray;
+}
+
+.map td.floor {
+  background-color: saddlebrown;
+  color: moccasin;
+}
+
+.map td.grass {
+  background-color: green;
+  color: lawngreen;
+}
+
+.map td.water {
+  background-color: dodgerblue;
+  color: darkturquoise;
+}
+
+.map td.lava {
+  background-color: crimson;
+  color: tomato;
+}
+
+.map tr td.player {
+  color: cyan;
+}
+
+.map tr td.person {
+  color: white;
+}
+
+.map tr td.reptile {
+  color: green;
+}
+
+.map tr td.worm {
+  color: puce;
+}
+
+.map tr td.item {
+  color: blue;
+}
+
+.map tr td.treasure {
+  color: gold;
+}
+
+.map tr td.door {
+  color: silver;
+  font-weight: bold;
+}
